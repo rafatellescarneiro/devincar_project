@@ -1,0 +1,10 @@
+{"transferencias": [{"chassiNumber":"8756449f-ce98-4f6a-bc19-28d65dc5c876", 
+                    "dataFabricacao":"t10/07/2022 06:25:31este", 
+                    "nome":"Moto de teste", "placa":"TES-1523", 
+                    "valor":"R$15.000,00", "cpfComprador":"123.456.789-20", 
+                    "cor":"Preto", "veiculo":"Moto", "vendido": "True", 
+                    "data": "10/07/2022 13:30:00"}
+                    ]
+}
+
+

@@ -1,0 +1,6 @@
+{"carro": [{"chassiNumber":"edb921ca-29b3-4b7b-8c46-eb0b0cfecbc1", "dataFabricacao":"10/07/2022 07:35:40", "nome":"Carro teste", 
+            "placa":"TES-1324", "valor":"39.999,90", "cpfComprador":"0", 
+            "cor":"Vermelho","totalPortas":"4", "tipoCombustivel":"Flex", 
+            "potencia":"192 CV", "vendido": "False"}
+        ]
+}

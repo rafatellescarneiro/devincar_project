@@ -1,0 +1,5 @@
+{"camionete": [{"chassiNumber":"bb1fa322-bf9a-4458-b3eb-b72afabb0c98", "dataFabricacao":"10/07/2022 07:25:10", "nome":"Camionete Teste", "placa":"TES-1020", "valor":"99.999,00", 
+                "cpfComprador":"0", "totalPortas":"4", "tipoCombustivel":"Diesel", 
+                "capacidade":"1420 lts", "potencia":"225 cv", "cor":"roxa", "vendido": "False"}
+               ]
+}
