@@ -43,5 +43,5 @@ class Carro(Veiculos):
 
     def __salvar_alteracao(self)-> None:
         LocalDatabase.insert(file_path=self.__carro_file_path, entity_name=self.__entity_name,
-                             data=LocalDatabase.normalize_data(self.__parameters,
-                                                               self.__list_data))
+                            data=LocalDatabase.normalize_data(self.__parameters,
+                                                            self.__list_data))

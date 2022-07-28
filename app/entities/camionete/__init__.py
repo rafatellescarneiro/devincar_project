@@ -16,7 +16,7 @@ class Camionete(Veiculos):
         self.__cor = "Roxa"
         self.__parameters = ["chassiNumber", "dataFabricacao", "nome", "placa", 
                             "valor", "cpfComprador", "totalPortas", "tipoCombustivel", 
-                             "capacidade", "potencia", "cor"]
+                            "capacidade", "potencia", "cor"]
         self.__camionete_file_path = settings.CAMIONETE_DATA_PATH
         self.__entity_name = "camionete"
 
@@ -47,5 +47,5 @@ class Camionete(Veiculos):
 
     def __salvar_alteracao(self)-> None:
         LocalDatabase.insert(file_path=self.__camionete_file_path, entity_name=self.__entity_name,
-                             data=LocalDatabase.normalize_data(self.__parameters,
-                                                               self.__list_data))
+                            data=LocalDatabase.normalize_data(self.__parameters,
+                                                            self.__list_data))

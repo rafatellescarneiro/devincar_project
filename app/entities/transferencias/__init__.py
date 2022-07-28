@@ -19,7 +19,7 @@ class Transferencias:
     @execution_time
     def listar_transferencias(self):
         LocalDatabase.select(file_path=self.__transferencias_file_path,
-                             entity_name=self.__entity_name)
+                            entity_name=self.__entity_name)
         self.__veiculos.listar_todos()
         self.__list_data = [
                             self.__chassiNumber, self.__dataFabricacao, self.__nome, 
@@ -30,6 +30,5 @@ class Transferencias:
 
     def __salvar_alteracao(self)-> None:
         LocalDatabase.insert(file_path=self.__transferencias_file_path, entity_name=self.__entity_name,
-                             data=LocalDatabase.normalize_data(self.__parameters,
-                                                               self.__list_data))
-                       
+                            data=LocalDatabase.normalize_data(self.__parameters,
+                                                            self.__list_data))

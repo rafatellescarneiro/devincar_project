@@ -26,7 +26,7 @@ class Veiculos:
 
     def listar_todos(self):
         LocalDatabase.select(file_path=self.__veiculos_file_path,
-                             entity_name=self.__entity_name)
+            entity_name=self.__entity_name)
 
 
     def vender_veiculo(self):
@@ -41,8 +41,8 @@ class Veiculos:
 
     def salvar_venda(self):
         LocalDatabase.insert(file_path=self.__veiculos_file_path, entity_name=self.__entity_name,
-                             data=LocalDatabase.normalize_data(self.__parameters,
-                                                               self.__list_data))
+                            data=LocalDatabase.normalize_data(self.__parameters,
+                                                            self.__list_data))
 
 
         
